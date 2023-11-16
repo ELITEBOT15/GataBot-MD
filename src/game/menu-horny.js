@@ -100,7 +100,7 @@ console.log(`❗❗ ${lenguajeGB['smsMensError2']()} ${usedPrefix + command} ❗
 console.log(e)}}
 
 handler.command = /^(menu5|menuhorny|menuhot)$/i
-handler.register = true
+handler.register = false
 handler.group = true
 export default handler
     
